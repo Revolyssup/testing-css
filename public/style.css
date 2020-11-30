@@ -7,6 +7,17 @@ body{
     transition: background 500ms ease-in-out,color 1000ms ease-in-out;
 }
 
+body::-webkit-scrollbar {
+    width: 0.25rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: #1e1e24;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #0084a5;
+}
 ul{
     list-style-type: none;
     margin: 0;
@@ -18,7 +29,10 @@ a{
     text-decoration: none;
 
 }
-
+/* 
+main {
+    margin-top: 5rem;
+} */
 .navbar{
     height: 70px;
     width: 100%;
@@ -91,6 +105,7 @@ header {
 /* Themes */
 
 :root {
+
     --gray0: #f8f8f8;
     --gray1: #dbe1e8;
     --gray2: #b2becd;
